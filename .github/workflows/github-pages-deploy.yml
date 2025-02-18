@@ -37,7 +37,7 @@ jobs:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
       - name: Install deps
-        run: npm ci
+        run: npm run install
       - name: Build
         run: npm run build
       - name: Setup Pages
